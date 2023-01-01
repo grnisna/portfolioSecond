@@ -1,7 +1,6 @@
 import React from "react";
 import bgImage from "../../../Assets/BannerBG/grnisanbg.jpg";
 import fontImage from "../../../Assets/BannerBG/grNisan.png";
-import downloadIcon from "../../../Assets/Icons/downloadIcon.svg";
 import SocialMedia from "../../../SharedComponent/SocialMedia/SocialMedia";
 
 const Banner = () => {
@@ -15,10 +14,10 @@ const Banner = () => {
     >
       <div className="">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src={fontImage} className="max-w-lg" alt="imag" />
+          <img src={fontImage} className="lg:max-w-lg" alt="imag" />
           <div>
             <h3 className="text-white">Hi,</h3>
-            <h1 className="text-5xl font-bold text-white">This is GR NISAN</h1>
+            <h1 className="lg:text-5xl text-3xl font-bold text-white">This is GR NISAN</h1>
             <h2 className="text-white text-xl">Front-End Developer</h2>
             <p className="py-6 text-white text-justify">
               I'm glad to having you on my portfolio.As a developer create a
