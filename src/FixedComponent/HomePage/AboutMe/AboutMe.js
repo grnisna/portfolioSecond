@@ -1,23 +1,25 @@
 import React from "react";
 import aboutmeBg from "../../../Assets/BackgoundImage/aboutmeBg.png";
 import golamRasul from "../../../Assets/image/golam-rasul.jpg";
+import { FaLaptopMedical } from 'react-icons/fa';
+import { GrProjects } from 'react-icons/gr';
 
 const AboutMe = () => {
   return (
     <div
       style={{
         background: `url(${aboutmeBg})`,
-        backgroundSize: "content",
+        backgroundSize: "cover",
       }}
     >
       <div class="hero  ">
         <div class="hero-content flex-col lg:flex-row">
           <div class="avatar">
-            <div class="w-72 mask mask-squircle">
+            <div class="lg:w-72 w-50 mask mask-squircle">
               <img src={golamRasul} alt="" />
             </div>
           </div>
-          <div className="ml-14">
+          <div className="lg:ml-14">
             <h1 className=" lg:text-5xl text-2xl lg:text-left text-center font-bold  ">
               About Me..
             </h1>
@@ -33,23 +35,20 @@ const AboutMe = () => {
             </p>
             <div>
               <div className="">
-                <div
-                  className=" mx-auto grid grid-cols-1 lg:grid-cols-3  bg-blue-200 px-12 rounded-xl "
-                >
+                <div className=" mx-auto grid grid-cols-1 lg:grid-cols-2  lg:px-12 rounded-xl ">
                   <div className="mx-auto ">
-                    <img className="mx-auto  w-12 my-4" src={golamRasul} alt="" />
-                    <h2 className="font-bold text-l text-center">1.2+ Years</h2>
-                    <h4 className="text-center">FrontEnd Development</h4>
+                    <div className="me-auto"> <FaLaptopMedical style={{margin:"auto"}} size={70} color='Green'  /> </div>
+                    <h2 className="font-bold text-l text-center">
+                      20+ Projects
+                    </h2>
+                    <h4 className="text-center">Complied FrontEnd & BackEnd</h4>
                   </div>
-                  <div className="mx-auto ">
-                    <img className="mx-auto w-12 my-4" src={golamRasul} alt="" />
-                    <h2 className="font-bold text-l text-center">8+ months</h2>
-                    <h4 className="text-center">BackEnd Development</h4>
-                  </div>
-                  <div className="mx-auto ">
-                    <img className="mx-auto  w-12 my-4" src={golamRasul} alt="" />
-                    <h2 className="font-bold text-l text-center">1.5+ Years</h2>
-                    <h4 className="text-center">WordPress Development</h4>
+                  <div className="mx-auto mt-3">
+                  <div className="me-auto"> <GrProjects style={{margin:"auto"}} size={45}  /> </div>
+                    <h2 className="font-bold text-l text-center">
+                      1+ Team Project 
+                    </h2>
+                    <h4 className="text-center">Role - Scrum & Team Member</h4>
                   </div>
                 </div>
               </div>

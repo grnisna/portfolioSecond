@@ -10,21 +10,21 @@ const SocialMedia = () => {
   return (
     <div>
       <div class="avatar mt-5">
-        <div class="w-12 mask mask-hexagon hover:bg-blue-400 bg-blue-200 ml-4">
+        <div class="lg:w-12 w-8 mask mask-hexagon hover:bg-blue-400 bg-blue-200 ml-4">
           <a  href="https://www.linkedin.com/in/grnisan/">
             <img src={facebook} alt="facebook" />
           </a>
         </div>
       </div>
       <div class="avatar">
-        <div class="w-12 mask mask-hexagon hover:bg-blue-400 bg-blue-200 mx-4">
+        <div class="lg:w-12 w-8 mask mask-hexagon hover:bg-blue-400 bg-blue-200 mx-4">
           <a href="https://www.linkedin.com/in/grnisan/">
             <img src={github} alt="gitgub" />
           </a>
         </div>
       </div>
       <div class="avatar">
-        <div class="w-12 mask mask-hexagon hover:bg-blue-400 bg-blue-200">
+        <div class="lg:w-12 w-8 mask mask-hexagon hover:bg-blue-400 bg-blue-200">
           <a href="https://www.linkedin.com/in/grnisan/">
             <img src={linkedin} alt="lindedin" />
           </a>

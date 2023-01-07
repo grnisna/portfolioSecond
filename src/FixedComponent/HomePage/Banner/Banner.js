@@ -7,7 +7,7 @@ import ExperienceSummary from "../ExperienceSummary/ExperienceSummary";
 const Banner = () => {
   return (
     <div
-      className="lg:px-12 px-6 "
+      className="lg:px-12 px-6 py-5 "
       style={{
         background: `url(${bgImage})`,
         backgroundSize: "cover",

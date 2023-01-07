@@ -4,9 +4,10 @@ import backend from "../../../Assets/Icons/backend.png";
 import fontend from "../../../Assets/Icons/frontend.png";
 import backgroundShadow from "../../../Assets/BackgoundImage/backgroundShadow.png";
 
+
 const ExperienceSummary = () => {
   return (
-    <div className="bg-blue-200 lg:max-w-[800px] rounded-xl mx-auto mt-20">
+    <div className="bg-blue-200 lg:max-w-[800px] rounded-xl mx-auto lg:mt-20">
       <div
         style={{
           background: `url(${backgroundShadow})`,
